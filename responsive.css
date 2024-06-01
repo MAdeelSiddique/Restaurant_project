@@ -1,0 +1,154 @@
+@media screen and (max-width: 991px) {
+    .t-itemlist{
+      display: flex;
+      padding: 23px 23px;
+      flex-direction: column;
+      text-align: center;
+    }
+
+    .itempics{
+        padding-top: 15px;
+    }
+}
+
+
+/* Nave Barr responsive Start */
+@media screen and (max-width: 1399px){
+  .d-flex { 
+    display: none !important;
+  }
+}
+
+@media screen and (max-width: 485px){
+  .adlogo{
+    color: #fff;
+    font-weight: 700;
+    font-size: 37px;
+    font-family: "Sofia", sans-serif;
+}
+}
+
+@media screen and (max-width: 420px){
+  .adlogo{
+    color: #fff;
+    font-weight: 700;
+    font-size: 34px;
+    font-family: "Sofia", sans-serif;
+}
+  
+}
+
+@media screen and (max-width: 395px){
+  .adlogo{
+    color: #fff;
+    font-weight: 700;
+    font-size: 24px;
+    font-family: "Sofia", sans-serif;
+}
+  
+}
+
+/* Nave Barr responsive End */
+
+/* Herro Section Start */
+@media screen and (max-width: 1200px){
+  .extracol{
+    display: none;
+  }
+
+  .herro-section {
+    padding: 70px 0px;
+  }
+}
+
+@media screen and (max-width: 767px){
+  
+  .herro-secheadding h1 {
+    font-size: 58px;
+        font-weight: 600;
+        color: #f00;
+        margin: 0;
+    }
+  
+  
+  .herro-secheadding span {
+    font-size: 49px;
+    font-weight: 600;
+    line-height: 0.9;
+    /* padding-left: 53px; */
+  }
+
+  .herro-section {
+    padding: 44px 0px;
+}
+.herro-per p {
+  margin-top: 0px;
+}
+.herro-per {
+  margin: 12px 0;
+  font-size: 21px;
+}
+
+}
+
+@media screen and (max-width: 501px){
+  .herro-secheadding h1 {
+    font-size: 52px;
+  }
+
+  .herro-secheadding span {
+    font-size: 45px;
+    padding: 0;
+  }
+}
+
+@media screen and (max-width: 335px){
+  .herro-secheadding h1 {
+    font-size: 45px;
+  }
+}
+/* Herro Section End */
+
+/* map */
+@media screen and (max-width: 732px){
+
+iframe{
+  width: 500px;
+}
+}
+
+@media screen and (max-width: 530px){
+
+  iframe{
+    width: 450px;
+  }
+  }
+
+  @media screen and (max-width: 479px){
+
+    iframe{
+      width: 430px;
+    }
+    }
+
+    @media screen and (max-width: 463px){
+
+      iframe{
+        width: 400px;
+      }
+      }
+
+      @media screen and (max-width: 429px){
+
+        iframe{
+          max-width: 100%;
+        }
+        }
+
+/* Footer Start */
+@media screen and (max-width: 767px){
+  .pdt {
+     padding-top: 0px;
+}
+}
+/* Footer End */

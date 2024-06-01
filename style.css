@@ -1,0 +1,736 @@
+/* Global Css */
+*{ font-family: "Open Sans", sans-serif; color: #fff;}
+a{ text-decoration: none; }
+samp{color: #b92323; font-family: "Sofia", sans-serif;}
+input {color: #6b6767;}
+
+/* Nave barr Start */
+.navbar-toggler{
+    border: 2px solid;
+    background: #741919;
+}
+.ad-navbar{
+    background: url(herrosection.jpeg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.imgoverlay{
+    background: rgba(0, 0, 0, 0.4);
+   
+}
+.adnav{
+    background: transparent !important;
+}
+
+.adlogo{
+    color: #fff;
+    font-weight: 700;
+    font-size: 45px;
+    font-family: "Sofia", sans-serif;
+}
+.adlogo:hover{
+    color: #ff0000;
+    transition: 3s;
+}
+.adnav-link{
+    color: #fff;
+    font-weight: 500;
+
+}
+.active{
+    font-weight: 500;
+    color: #ff0000 !important;
+}
+.nav-link:hover{
+    color: #ff0000;
+    transition: 2s;
+}
+
+.btn-outline-success{
+    color: #ff0000;
+    border: 1px solid #a31717;
+}
+.btn-outline-success:hover{
+    color: #fff;
+    background-color: #9c1f1f;
+    border: 1px solid #ff0000;
+}
+/* Nave barr End */
+
+/* herro Section Start */
+.herro-section{
+    padding:161px 0px;
+}
+
+.herro-secheadding h1{
+    font-size: 75px;
+    font-weight: 600;
+    color: #f00;
+    margin: 0;
+}
+.herro-secheadding span{
+    font-size: 65px;
+    font-weight: 600;
+    line-height: 0.9;
+    padding-left: 53px;
+ }
+ .herro-per{
+    margin: 25px 0;
+    font-size: 21px;
+ }
+/* herro Section End */
+
+
+/* Featured dishes Section Start */
+.f-dishSection{
+    padding-top: 43px;
+    padding-bottom: 35px;
+
+    background-image: linear-gradient(41deg, #FFFFFF 71%, #cf5050 41%);
+}
+ .f-d h2{
+    color: #000;
+    font-size: 55px;
+    font-weight: 700;
+    padding-bottom: 30px;
+    text-align: center;
+    font-family: "Sofia", sans-serif;
+ }
+
+ .fdc{
+color: #000;
+ }
+ .card1{
+    border: 2px solid #000;
+    border-radius: 9px;
+    margin-bottom: 30px;
+ }
+
+.img img{
+    max-width: 100%;
+}
+.card-cont{
+    padding: 9px 0 0px 0;
+}
+.card-cont h3{
+    font-size: 26px;
+    font-weight: 600;
+    text-align: center;
+    margin: 0;
+    padding-bottom: 6px;
+}
+.fea-dish{
+    color: #f00;
+    font-size: 23px !important;
+    font-family: emoji;
+}
+.card-cont p{
+    margin: 0;
+}
+
+.card1:hover{
+    
+    box-shadow: -1px 1px 11px 2px #000;
+    
+}
+/* Featured dishes Section End */
+
+ /* Our Popular Dishes Section Start  */
+ .p-dishSection{
+    padding-top: 62px;
+    padding-bottom: 39px;
+    background-color: #f1f1f1;
+}
+.p-d{
+    padding-bottom: 70px;
+}
+ .p-d h2{
+    color: #000;
+    font-size: 55px;
+    font-weight: 700;
+    font-family: "Sofia", sans-serif;
+    text-align: center;
+ } 
+
+
+.p-d p{
+    color: #000;
+    width: 50%;
+    margin: 0 auto;
+    text-align: center;
+ }
+
+
+ /* Our Popular Dishes Section End  */
+
+
+/* Testimonials Section Start */
+
+.TestimonialsSection{
+    /* background-image: linear-gradient(-90deg, #FFFFFF 75%, #cf5050 41%); */
+    padding-top: 62px;
+    padding-bottom: 39px;
+    background-image: linear-gradient(220deg, #FFFFFF 75%, #cf5050 41%);
+    padding-bottom: 30px;
+}
+.rev-hed{
+    padding-bottom: 70px;
+}
+.rev-hed h2{
+    color: #000;
+    font-size: 55px;
+    font-weight: 700;
+    font-family: "Sofia", sans-serif;
+    text-align: center;
+ }
+.crp{
+    color: #000;
+    width: 50%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.review1{
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    
+    border-radius: 12px;
+}
+.rivewbox{
+    border: #000 1px solid;
+    border-radius: 12px;
+}
+.clintpic{
+    padding-top: 16px;
+}
+.clintpic img{    
+    max-width: 100%;
+    width: 34% !important;
+    border: 2px solid #000;
+    border-radius: 117px;
+    margin: 0 auto;
+}
+
+.reviewpera p{
+    color: #000;
+    text-align: center;
+    padding: 11px 0;
+    margin: 0;
+}
+
+.clintename h3{
+    color: #000;
+    text-align: center;
+    font-weight: 600;
+    word-spacing: -4px;
+    font-family: serif;
+    margin: 0px;
+
+}
+.stars{
+    padding-bottom: 10px;
+}
+.stars ul{
+    display: flex;
+    list-style: none;
+    text-align: center;
+    width: 47%;
+    margin: 0 auto;
+}
+
+.stars ul li i{
+    color: #f9b403;
+}
+/* Testimonials Section End */
+
+/* Reservation Section Start */
+.reservationSection{
+    padding-top: 80px;
+    padding-bottom: 56px;
+    background-color: #f1f1f1;
+}
+
+.reser-cont h2{
+    color: #000;
+    font-size: 55px;
+    font-weight: 700;
+    font-family: "Sofia", sans-serif;
+    text-align: center;
+}
+
+.reser-cont{
+    padding-bottom: 40px;
+}
+
+.reser-cont p{
+    color: #000;
+    width: 50%;
+    margin: 0 auto;
+    text-align: center;
+}
+/* Reservation Section End */
+.rcol{
+    margin: 0 auto;
+    background-color: #ffff;
+    padding: 38px 0;
+    border-radius: 36px;
+}
+
+.fhd{
+    padding-bottom: 18px;
+}
+
+.fhd h3{
+    font-size: 39px;
+    color: #cf5050;
+    font-family: "Sofia", sans-serif;
+    text-align: center;
+}
+
+.resform{
+    text-align: center;
+}
+
+.forminput input{
+    margin: 10px 0px;
+    padding: 12px 13px;
+    width: 86%;
+    border-radius: 5px;
+    border: 2px #000 solid
+}
+
+.submitbut{
+    padding-top: 16px;
+}
+
+.submitbut a{
+    text-decoration: none;
+    color: #9c1f1f;
+    border: 2px solid #9c1f1f;
+    border-radius: 5px;
+    font-size: 22px;
+    padding: 9px 36px;
+    font-family: math;
+}
+
+.submitbut a:hover{
+    background-color: #9c1f1f;
+    color: #fff;
+}
+
+
+
+
+/* footer Section Start */
+.footersection{
+    background-color: #cf5050;
+}
+.footerlogo a img{
+    max-width: 100%;
+}
+.pdt{
+    padding-top: 60px;
+}
+
+.footerhaddings h2{
+    color: #fff;
+    font-family: "Jost", Sans-serif;
+    font-size: 22px;
+    font-weight: 400;
+}
+.footerhaddings ul{
+    list-style: none;
+    padding: 0px;
+}
+.footerhaddings ul li a{
+    font-size: 17px;
+    text-decoration: none;
+    color: #fff;
+    font-weight: 500;
+}
+.footerhaddings ul li a i{
+    color: #a08479;
+}
+
+.footerpera p{
+    font-family: "Jost", Sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    color: #fff;
+    margin-top: 6px;
+}
+.footerbtn{
+    float: right;
+}
+.footerbtn a{
+    font-family: "Jost", Sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    color: #fff;
+}
+
+.uparrow{
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    z-index: 9;
+    border: 4px solid;
+    border-radius: 55px;
+
+}
+.uparrow a{
+    color: #000;
+    height: 43px;
+    width: 47px;
+    text-align: center;
+    background: #fff;
+    display: block;
+    border-radius: 20px;
+    cursor: pointer;
+
+}
+.uparrow a span{
+    color: #000;
+    line-height: 39px;
+    font-size: 25px;
+
+} 
+/* footer Section End */
+
+
+
+
+/* =============================================== Menu Page Start =============================================== */
+
+/* Menu Navebar Start */
+.menunavebarSection{
+    background: url(menubg.JPG);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.menuoverlay{
+    background: rgba(0, 0, 0, 0.4);
+}
+.men-nav:hover{
+    background-color: #cf5050;
+    border-radius: 15px;
+    color: #fff;
+}
+
+.men-nav{
+    color: #fff;
+}
+/* Menu Navebar End */
+
+/* Menu Herro section Start */
+.menuherroh {
+    padding: 52px 0px;
+}
+
+.menuherroh h2{
+    font-family: "Sofia", sans-serif;
+    text-align: center;
+    font-size: 61px;
+    font-weight: 800;
+    
+}
+
+/* Menu Herro Section End */
+
+
+/* Tandoori Section Start */
+.tandoorisection{
+    padding: 65px 0px;
+    background-color: #dddddd;
+}
+
+.tan-hd h3{
+    color: #000;
+    font-size: 55px;
+    font-weight: 700;
+    font-family: "Sofia", sans-serif;
+    text-align: center;
+    padding-bottom: 46px;
+}
+
+.itemmaind{
+    background-color: #fff;
+    border-radius: 25px;
+    margin: 0 0 25px 0;
+}
+.t-itemlist{
+    display: flex;
+    padding: 23px 23px;
+    
+}
+
+.contentbox h3{
+    color: #000;
+}
+
+.contentbox p{
+    color: #000;
+}
+
+.contentbox span{
+    background-color: #9e1313;
+    padding: 3px 40px;
+    font-family: emoji;
+    font-size: 22px;
+}
+
+.itempics img{
+    border-radius: 7px;
+}
+
+.itempicsl img{
+    border-radius: 7px;
+    padding: 0px 20px 0px 0px;
+}
+/* Tandoori Section End */
+
+/* Chicken Section Start */
+.chickensection{
+    padding: 0px 0px 65px 0px;
+    background-color: #dddddd;
+}
+
+.itemmaind:hover{
+    box-shadow: 1px 0px 12px 2px #000
+}
+/* Chicken Section End */
+
+/* =============================================== Menu Page End =============================================== */
+
+
+
+
+
+/* =============================================== About Us Page Start =============================================== */
+
+
+/* About Us Section Start */
+.Aboutussection{
+    padding: 65px 0px;
+    background-color: #dddddd;
+}
+
+.abouthd h3{
+    color: #000;
+    font-size: 55px;
+    font-weight: 700;
+    font-family: "Sofia", sans-serif;
+    
+    
+}
+
+.linetry::after{
+    content: "";
+    display: block;
+    position: relative;
+    height: 3px;
+    width: 134px;
+    background-color: #b92323;
+    margin: 10px 65px;
+}
+
+.aboutstory p{
+    color: #000000;
+    line-height: 1.6;
+    word-spacing: 3px;
+}
+
+.aboutrightpic img{
+    border-radius: 14px;
+    box-shadow: 0px 0px 7px 4px #000;
+    max-width: 100%;
+}
+/* About Us Section End */
+
+/* about chef Start */
+.aboutChef{
+    padding: 0 0 65px 0px;
+    background-color: #dddddd;
+}
+
+.chefcontent h3{
+    color: #000;
+    font-size: 55px;
+    font-weight: 700;
+    font-family: "Sofia", sans-serif;
+    text-align: center;
+    word-spacing: -8px;
+    padding-bottom: 51px;
+}
+.abchli::after{
+    content: "";
+    display: block;
+    position: relative;
+    height: 3px;
+    width: 209px;
+    background-color: #b92323;
+    margin: 10px auto;
+}
+
+.chefinfobox{
+    background-color: #fff;
+    padding: 20px 20px;
+    border-radius: 15px;
+    box-shadow: 0px 0px 12px 0px #000;
+    margin: 20px 0px;
+}
+
+.chefinfobox:hover{
+    box-shadow: 0px 0px 7px 4px #000;
+}
+
+.chef-pic img{
+    width: 100%;
+    max-width: 100%;
+    border-radius: 10px;
+}
+.chefname h3{
+    color: #000;
+    font-size: 42px;
+    font-weight: 600;
+    text-align: center;
+    margin: 0;
+    padding-bottom: 6px;
+    font-family: "Sofia", sans-serif;
+    padding: 20px 0 18px 0;
+}
+
+.chefname p{
+    color: #000000;
+    line-height: 1.4rem;
+    font-size: 0.9rem;
+    text-align: justify;
+}
+/* about chef End */
+
+/* =============================================== About Us Page End =============================================== */
+
+
+/* =============================================== Contact Us Page Start =============================================== */
+.conbo{
+    background-color: #fff;
+    padding: 10px 0 82px 0;
+    border-radius: 10px;
+}
+.pt{
+    padding-top: 16px;
+}
+
+iframe{
+    border: 0;
+    border-radius: 10px;
+    box-shadow: 0px 0px 7px 3px #000;
+}
+/* =============================================== Contact Us Page End =============================================== */
+
+
+/* =============================================== Gallery Page Start =============================================== */
+/* Gallery Section Start */
+.gallery-hadding h3{
+    color: #000;
+    font-size: 55px;
+    font-weight: 700;
+    padding-bottom: 40px;
+    text-align: center;
+    font-family: "Sofia", sans-serif;
+    padding-top: 48px;
+}
+.gallery{
+    margin: 0 auto;
+    padding-bottom: 59px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+  .material-fill-1 {
+      font-variation-settings:
+          'FILL'1,
+          'wght'400,
+          'GRAD'0,
+          'opsz'48
+  }
+  p{
+    color: white;
+    font-size: 0.8rem;
+    text-align: center; 
+    margin-top: 1rem;
+  }
+  a{
+    color: orange;
+  }
+  a:hover{
+    text-decoration: underline;
+  }
+  .gallery {
+      --_height: 250px; 
+      --_gap: .5rem;
+    
+      --_grid-rows: var(--_height) var(--_height) var(--_height);
+      --_height-hover: calc(var(--_height) * 2);
+      --_height-not-hover: calc(var(--_height) / 2);
+    
+      width: 100%;  
+      max-width: 800px;
+      display: grid;
+      gap: var(--_gap);
+  }
+  @media (min-width:720px){
+    .gallery {
+        grid-template-columns: repeat(3,1fr);
+    }
+    
+  }
+  .gallery>div {
+      height: fit-content;
+      display: grid;
+      grid-template-rows: var(--_grid-rows);
+      gap: var(--_gap);
+      transition: grid-template-rows 300ms ease-in-out;
+  }
+  .gallery>div>article {
+      position: relative;
+  }
+  .gallery>div>article>div{
+     position: absolute;
+    bottom: 0;
+    left: 0;
+    background: #00000070;
+    font-size: 0.65rem;
+    color: white;
+    display: flex;
+    align-items: center;
+    gap: .25rem;
+    padding: .15rem 0.5rem;
+    
+  }
+  .gallery>div>article>div>span{
+    font-size: 0.7rem;
+    color: red;
+  }
+  .gallery img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  .gallery>div:has(>article:nth-child(1):hover) {
+      --_grid-rows: var(--_height-hover) var(--_height-not-hover) var(--_height-not-hover);
+  }
+  .gallery>div:has(>article:nth-child(2):hover) {
+      --_grid-rows: var(--_height-not-hover) var(--_height-hover) var(--_height-not-hover);
+  }
+  .gallery>div:has(>article:nth-child(3):hover) {
+      --_grid-rows: var(--_height-not-hover) var(--_height-not-hover) var(--_height-hover);
+  }
+  .gallery>div>article:hover {
+      background-color: rgb(151, 152, 201);
+      color: #FFF;
+  }
+/* Gallery Section End */
+
+/* =============================================== Gallery Us Page End =============================================== */
